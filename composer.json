@@ -21,5 +21,8 @@
     },
     "require": {
         "vimeo/psalm": "4.*"
+    },
+    "require-dev": {
+        "jms/serializer": "3.*"
     }
 }
