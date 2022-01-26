@@ -1,0 +1,13 @@
+namespace JMS\Serializer {
+    interface ArrayTransformerInterface
+    {
+        /**
+         * @template T
+         * @param array $data
+         * @param class-string<T> $type
+         *
+         * @return T
+         */
+        public function fromArray(array $data, string $type, ?\JMS\Serializer\DeserializationContext $context = null);
+    }
+}
