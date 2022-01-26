@@ -20,6 +20,6 @@
         }
     },
     "require": {
-        "vimeo/psalm": "dev-master"
+        "vimeo/psalm": "4.*"
     }
 }
