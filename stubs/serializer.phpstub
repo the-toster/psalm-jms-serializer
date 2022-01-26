@@ -1,3 +1,5 @@
+<?php
+
 namespace JMS\Serializer {
     interface ArrayTransformerInterface
     {
