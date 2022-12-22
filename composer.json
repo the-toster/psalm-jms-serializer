@@ -20,7 +20,8 @@
         }
     },
     "require": {
-        "vimeo/psalm": "4.*"
+        "vimeo/psalm": "5.*|4.*",
+        "ext-simplexml": "*"
     },
     "require-dev": {
         "jms/serializer": "3.*"
